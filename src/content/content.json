@@ -1,0 +1,63 @@
+{
+	"header": [
+		{
+			"title": [
+				"Shree Radha Krishan Dham",
+				"Greenwich Hindu Mandir"
+			]
+		}
+	],    
+	"banner": [
+		"National Hindu Welfare Support works with communities, families and girls to raise awareness about grooming and provides assistance and support to those in need."
+	],
+	"contact": [
+		{ 
+			"address" : "63-67 Bannockburn Road, Plumstead, London, SE18 1ET",
+			"phone" : "020 8854 4566",
+			"email" : "info@greenwichhindutemple.org.uk"
+		}
+	],
+	"about": [
+		{
+			"title":"About",
+			"text": [
+				"Greenwich Hindu Mandir (GHM) was founded in March 1978 in the Royal London Borough of Greenwich. Initially, members met at each other’s homes for worshipping, satsang, religious and cultural discourses.",
+				"St. Nicholas Mission Hall, our present building was purchased in 1984 on a 99 year lease and the building was converted into a Temple. Marble Murtis of Radha-Krishna, Shivalingam, Durga mata and Ram darbar were donated by Mr Rambaba and Mr Maganbhai. Ganeshji were donated by Birla’s of India through Mr Ramesh Kumar.",
+				"In 1993, the Temple was refurbished and the Singhasan was constructed. The temple is valued by the Hindu community and the congregation is increasing every year. Hindus from all parts of India and also from Fiji, Guyana, Kenya, Mauritius, Nepal, Sri Lanka, Trinidad and USA regularly visit and enjoy the cultural and religious celebrations.",
+				"The principal activities of the charity continue to be the promotion of equality among the communities, spread peace and promote cultural activities within the Asian community with a view to bring people together from all walks of life."
+			]
+		}
+	],
+	"services": [
+		{
+			"title":"Services",
+			"text" : [
+				"Temple arranges for various types of Pooja / Prayer services which can be organised at the temple or in some cases at your home. For an extensive list of services offered, please click the link below.",
+				"Please note that The Management Committee holds the right to make any changes, giving prior notice to the public. Thank you for your generosity.",
+				"Every Monday afternoon, the temple provides bhojan / food for the congregation and the elderly. People get together socially. Devotees may chose to book any Monday and provide for the food."
+			],
+			"docs" : [
+				{
+					"poojas":	"/docs/poojas-and-donation.pdf"
+				}
+			]
+		}
+	],
+	"donations" : [
+		{
+			"title":"Donations",
+			"text": [
+				"The Committee is most grateful for your generosity. We rely entirely on the donations made by people like yourselves and thank you for your continuous support to Greenwich Hindu Temple.",
+				"If you would like to make a donation on a regular basis to the temple then please download the Standing Order Form here via:",
+				"Standing order form Gift Aid Decleration Form",
+				"Please hand the completed form to one of the committee member or email it to info@greenwichhindutemple.org.uk",
+				"The committee would like to Thank you in advance for your generosity."
+			]
+		}
+	],
+	"footer": [
+		{
+			"charity":"1106377"
+		}
+	]
+}

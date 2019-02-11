@@ -1,0 +1,28 @@
+{			
+    "navigation": [				
+        {
+            "text":"About",
+            "link":"about"
+        },
+        {
+            "text":"Services",
+            "link":"services"
+        },
+        {
+            "text":"Calendar",
+            "link":"calendar"
+        },
+        {
+            "text":"Gallery",
+            "link":"gallery"
+        },
+        {
+            "text":"Donations",
+            "link":"donations"
+        },
+        {
+            "text":"Acharya ji",
+            "link":"acharya"
+        }
+    ]
+}
