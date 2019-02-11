@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from "react-router-dom";
 import styled from 'styled-components';
 
 const StyledNav = styled.div`
@@ -12,10 +13,14 @@ const StyledNav = styled.div`
       justify-content: space-between;
       padding: 0;
       
+      a {
+        color: #3a3838;
+      }
       a:hover {
         text-decoration: none;
         font-weight: bold;
         transition: font-weight 0.2s;
+        color: #d27c21;
       }
     }
   }
@@ -29,8 +34,8 @@ export default class Nav extends Component {
         <nav>  
           <ul>
           {items.navigation.map((nav,key) => {
-            return (
-              <li key={key}><a href={nav.link}>{nav.text}</a></li>
+            return (              
+              <li key={key}><NavLink to={nav.link}>{nav.text}</NavLink></li>
             );
           })}
           </ul>

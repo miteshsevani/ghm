@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink, HashRouter} from "react-router-dom";
 import styled from 'styled-components';
 import Image from './Image';
 
@@ -20,8 +21,12 @@ export default class Header extends Component {
     const { data } = this.props;
     return (
       <StyledHeader>
-        <header>  
-          <Image className="logo" src='img/logo.png' />          
+        <header>            
+          <HashRouter>
+            <NavLink to="/">
+              <Image className="logo" src='img/logo.png' />          
+            </NavLink>
+          </HashRouter>
           <div>
             <div>{data[0].title[0]}</div>
             <div>{data[0].title[1]}</div>
