@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 const StyledImage = styled.div`
-  max-width: 100%;
+  img {
+    max-width: 100%;
+  }
 `;
 
 

@@ -1,24 +1,24 @@
 import React, { Component } from 'react';
 import { Route, HashRouter } from "react-router-dom";
 import Header from './components/Header';
-import Nav from './components/Nav';
 import Home from './components/Home';
+import About from './components/About';
 import Services from './components/Services';
 import Donations from './components/Donations';
 import Footer from './components/Footer';
 
 const data = require('./content/content.json');
-const navItems = require('./content/nav.json');
+
 class App extends Component {
   render() {
     return (
       <div>
-        <div className="wrapper">            
-          <Header data={ data.header } />
-          <HashRouter>        
-            <div>
-              <Nav items={navItems} />          
+        <Header data={ data.header } />
+        <div className="wrapper">                      
+          <HashRouter>
+            <div>              
               <Route exact path="/" component={Home}/>
+              <Route path="/about" component={About}/>
               <Route path="/services" component={Services}/>
               <Route path="/donations" component={Donations}/>          
             </div>        

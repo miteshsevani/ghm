@@ -2,14 +2,11 @@
 	"header": [
 		{
 			"title": [
-				"Shree Radha Krishan Dham",
+				"Shree Radha Krishna Dham",
 				"Greenwich Hindu Mandir"
 			]
 		}
-	],    
-	"banner": [
-		"National Hindu Welfare Support works with communities, families and girls to raise awareness about grooming and provides assistance and support to those in need."
-	],
+	],    	
 	"contact": [
 		{ 
 			"address" : "63-67 Bannockburn Road, Plumstead, London, SE18 1ET",
@@ -17,6 +14,17 @@
 			"email" : "info@greenwichhindutemple.org.uk"
 		}
 	],
+	"darshan": [
+		{
+			"title":"Darshan times",
+			"text": [
+				"8:30am - 11:30am",
+				"5:00pm - 8:00pm",
+				"7 days a week"
+			]
+		}
+	]
+	,
 	"about": [
 		{
 			"title":"About",
@@ -32,7 +40,7 @@
 		{
 			"title":"Services",
 			"text" : [
-				"Temple arranges for various types of Pooja / Prayer services which can be organised at the temple or in some cases at your home. For an extensive list of services offered, please click the link below.",
+				"Temple arranges for various types of Pooja / Prayer services which can be organised at the temple or in some cases at your home. ",
 				"Please note that The Management Committee holds the right to make any changes, giving prior notice to the public. Thank you for your generosity.",
 				"Every Monday afternoon, the temple provides bhojan / food for the congregation and the elderly. People get together socially. Devotees may chose to book any Monday and provide for the food."
 			],

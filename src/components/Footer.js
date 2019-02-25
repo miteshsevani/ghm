@@ -5,7 +5,7 @@ const StyledFooter = styled.div`
   background: #262626;
   color: #ccc;
   footer {    
-    max-width: 964px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 16px;
     .footer-meta {
