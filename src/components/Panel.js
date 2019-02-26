@@ -12,7 +12,7 @@ export default class Panel extends Component {
     const { data } = this.props;
     return (
       <StyledPanel>        
-        <Title title={data.title} />
+        <Title title={data.title} type="secondary" />
         {data.text.map(function(name, index){
           return <p key={ index }>{name}</p>;
         })}

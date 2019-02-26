@@ -6,16 +6,22 @@ const StyledCard = Styled.div`
   width: 100%;
   margin: 16px 0;
   @media (min-width: 700px) {
-    width: 48%;    
+    &.full {
+      width: 100%;
+    }
+    &.half {
+      width: 48%;
+    }
   }
 `;
 export default class Card extends Component {
   render() {
-    const { data } = this.props;
-    return(
-      <StyledCard>
-        <Title title={ data.title } />
+    const { data, type } = this.props;
+    return (
+      <StyledCard className= { type }>
+        { data.title === 'About' ? '' : <Title title={ data.title } /> }
         <p>{ data.text[0] }</p>        
+        { data.title === 'Services' ? <p><a href="#/services">Find out more</a></p> : '' }
       </StyledCard>
     )
   }
