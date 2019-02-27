@@ -8,14 +8,13 @@ import Image from './Image';
 const StyledHeader = styled.div`
   header {        
     padding: 12px 0;
+    background: #262626;    
     .header-wrapper {
       display: flex;
       align-items: center;
       width: 100%;
       max-width: 1000px;
-      margin: 0 auto;
-      padding: 0 16px;
-      background: #262626;    
+      margin: 0 auto;      
       color: #fff;      
     }
     .logo {
