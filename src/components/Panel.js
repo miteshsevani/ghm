@@ -4,7 +4,7 @@ import Title from './Title';
 
 const StyledPanel = Styled.div`
   width: 100%;
-  margin: 16px 0;  
+  margin-bottom: 16px;
 `;
 
 export default class Panel extends Component {
@@ -13,9 +13,11 @@ export default class Panel extends Component {
     return (
       <StyledPanel>        
         <Title title={data.title} type="secondary" />
+        <p>
         {data.text.map(function(name, index){
-          return <p key={ index }>{name}</p>;
+          return <span key={ index }>{name}<br /></span>;
         })}
+        </p>
       </StyledPanel>
     );
   }

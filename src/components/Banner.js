@@ -7,6 +7,7 @@ const StyledBanner = Styled.div`
   background-image: url('img/mandir.png');  
   background-size: cover;  
   background-position: center;
+  margin-bottom: 16px;
 `;
 export default class Banner extends Component {
   render() {

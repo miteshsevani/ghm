@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const StyledTitle = styled.div`  
   h2 {
     color: #d27c21;  
-    margin: 0 0 16px 0; 
+    margin: 0 0 8px 0; 
     &.secondary {
       color: #0075BC;
       font-size: 1em;

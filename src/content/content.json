@@ -11,7 +11,10 @@
 		{
 			"title":"Visit us",
 			"text" : [
-				"63-67 Bannockburn Road, Plumstead, London, SE18 1ET"
+				"63-67 Bannockburn Road",
+				"Plumstead", 
+				"London", 
+				"SE18 1ET"
 			]
 		}
 	],

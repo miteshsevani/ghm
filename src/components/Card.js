@@ -4,7 +4,7 @@ import Title from './Title';
 
 const StyledCard = Styled.div`
   width: 100%;
-  margin: 16px 0;
+  margin-bottom: 16px;
   @media (min-width: 700px) {
     &.full {
       width: 100%;

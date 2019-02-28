@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Banner from './Banner';
+import Intro from './Intro';
 import Card from './Card';
 import Panel from './Panel';
 
@@ -10,7 +11,7 @@ export default class Home extends Component {
       <div className="content">
         <Banner />
         <div className="main">
-          <Card data={data.about[0]} type="full" />
+          <Intro data={data.about[0]} />
           <Card data={data.services[0]} type="half" />
           <Card data={data.donations[0]} type="half" />         
         </div>
