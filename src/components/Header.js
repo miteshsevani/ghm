@@ -6,9 +6,9 @@ import Image from './Image';
 
 
 const StyledHeader = styled.div`
-  header {        
-    padding: 12px 0;
+  header {            
     background: #262626;    
+    padding: 12px;
     .header-wrapper {
       display: flex;
       align-items: center;
@@ -18,11 +18,28 @@ const StyledHeader = styled.div`
       color: #fff;      
     }
     .logo {
-      width: 100px;      
+      width: 60px;
     }
     .title {
       white-space: nowrap;
-      margin-left: 16px;
+      margin-left: 12px;
+      font-size: 15px;
+    }
+    .menu-toggle {
+      margin-left: 12px;      
+    }
+    @media all and (min-width: 768px) {
+      padding: 12px 0;
+      .logo {
+        width: 100px;
+      }
+      .title {        
+        margin-left: 16px;
+        font-size: 1em;
+      }      
+      .menu-toggle {
+        display: none;
+      }
     }
   }
 `;
@@ -45,6 +62,9 @@ export default class Header extends Component {
               <div>{data[0].title[1]}</div>
             </div>
             <Nav items={navItems} />
+            <span className="menu-toggle">
+              <Image src="img/menu.png" />
+            </span>
           </div>          
         </header>
       </StyledHeader>

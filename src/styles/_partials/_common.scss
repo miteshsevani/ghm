@@ -32,8 +32,7 @@ p {
 .wrapper {
   width: 100%;
   max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 16px;
+  margin: 0 auto;  
   background: $color-white;
 }
 
@@ -41,16 +40,28 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 16px 0;      
+  padding: 12px;      
 }
 
 .main {
-  max-width: 65%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.side-panel {
-  width: 32%;
+.side-panel {  
+  width: 100%;
+}
+
+@include breakpoint(tablet) {
+  .content {
+    padding: 16px 0;
+  }
+  .main {
+    width: 65%;
+  }
+  .side-panel {  
+    width: 32%;
+  } 
 }

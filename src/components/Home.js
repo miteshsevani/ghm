@@ -10,16 +10,16 @@ export default class Home extends Component {
     return (
       <div className="content">
         <Banner />
-        <div className="main">
+        <section className="main">
           <Intro data={data.about[0]} />
           <Card data={data.services[0]} type="half" />
           <Card data={data.donations[0]} type="half" />         
-        </div>
-        <div className="side-panel">
+        </section>
+        <section className="side-panel">
           <Panel data={data.visit[0]} />
           <Panel data={data.darshan[0]} />
           <Panel data={data.contact[0]} />
-        </div>
+        </section>
       </div>
     );
   }

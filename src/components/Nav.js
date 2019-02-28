@@ -5,14 +5,14 @@ import styled from 'styled-components';
 
 const StyledNav = styled.div`
   display:flex;
-  width: 100%;
-  justify-content: flex-end;
-  nav {    
+  justify-content: flex-end;      
+  width: 100%;  
+  nav {        
     ul {
-      display: flex;
+      display: block;      
       list-style: none;
       justify-content: space-between;
-      padding: 0;
+      padding: 0;      
       li {
         margin-left: 20px;
       }
@@ -24,6 +24,27 @@ const StyledNav = styled.div`
         font-weight: bold;
         transition: font-weight 0.2s;
         color: #d27c21;
+      }
+    }
+    @media all and (min-width: 768px) {       
+      ul {
+        display: flex;
+      }
+    }    
+  }
+  @media all and (max-width: 767px) {
+    position: absolute;
+    text-align: center;
+    background: #262626;
+    top: 80px;
+    left: 0;
+    nav {
+      width: 100%;
+      ul {
+        margin-top: 0;              
+        li {
+          padding: 3px 0;
+        }
       }
     }
   }
@@ -42,7 +63,7 @@ export default class Nav extends Component {
               <li key={key}><NavLink to={nav.link}>{nav.text}</NavLink></li>
             );
           })}
-          </ul>
+          </ul>          
         </nav>
         </HashRouter>
       </StyledNav>
