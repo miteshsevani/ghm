@@ -36,10 +36,14 @@ const StyledNav = styled.div`
     position: absolute;
     text-align: center;
     background: #262626;
-    top: 80px;
+    top: 70px;
     left: 0;
     nav {
       width: 100%;
+      display: none;
+      &.active {
+        display: block;
+      }
       ul {
         margin-top: 0;              
         li {
@@ -50,17 +54,23 @@ const StyledNav = styled.div`
   }
 `;
 
-export default class Nav extends Component {  
+export default class Nav extends Component {    
+  closeMenu() {    
+    const currentState = document.getElementById('nav');          
+    currentState.removeAttribute('class');
+    
+  }
+
   render() {    
-    const { items } = this.props;
+    const { items, state } = this.props;
     return(
       <StyledNav>
-        <HashRouter>
-        <nav>  
+        <HashRouter>          
+        <nav id="nav" className={state}>
           <ul>
           {items.navigation.map((nav,key) => {
             return (              
-              <li key={key}><NavLink to={nav.link}>{nav.text}</NavLink></li>
+              <li key={key} onClick={this.closeMenu}><NavLink to={nav.link}>{nav.text}</NavLink></li>
             );
           })}
           </ul>          

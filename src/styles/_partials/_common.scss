@@ -29,18 +29,17 @@ p {
   }
 }
 
-.wrapper {
-  width: 100%;
+.wrapper {  
   max-width: 1000px;
   margin: 0 auto;  
+  padding: 12px;      
   background: $color-white;
 }
 
 .content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 12px;      
+  justify-content: space-between;  
 }
 
 .main {
@@ -55,8 +54,8 @@ p {
 }
 
 @include breakpoint(tablet) {
-  .content {
-    padding: 16px 0;
+  .wrapper {
+    padding: 16px;
   }
   .main {
     width: 65%;

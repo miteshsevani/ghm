@@ -8,14 +8,14 @@ import Image from './Image';
 const StyledHeader = styled.div`
   header {            
     background: #262626;    
-    padding: 12px;
+    
     .header-wrapper {
+      padding: 12px;
       display: flex;
-      align-items: center;
-      width: 100%;
+      align-items: center;      
       max-width: 1000px;
       margin: 0 auto;      
-      color: #fff;      
+      color: #fff;            
     }
     .logo {
       width: 60px;
@@ -25,11 +25,14 @@ const StyledHeader = styled.div`
       margin-left: 12px;
       font-size: 15px;
     }
-    .menu-toggle {
-      margin-left: 12px;      
+    .menu-toggle {       
+      position: absolute;
+      right: 8px;
     }
     @media all and (min-width: 768px) {
-      padding: 12px 0;
+      .header-wrapper {
+        padding: 16px;
+      }
       .logo {
         width: 100px;
       }
@@ -46,6 +49,20 @@ const StyledHeader = styled.div`
 
 const navItems = require('../content/nav.json');
 export default class Header extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {menuState: false }
+  }
+
+
+  menuToggle() {
+    const currentState = this.state.menuState;
+    this.setState({ 
+      menuState: !currentState ? 'active' : false
+    });
+  }
+
   render() {
     const { data } = this.props;
     return (
@@ -61,8 +78,8 @@ export default class Header extends Component {
               <div>{data[0].title[0]}</div>
               <div>{data[0].title[1]}</div>
             </div>
-            <Nav items={navItems} />
-            <span className="menu-toggle">
+            <Nav items={navItems} state={this.state.menuState} />
+            <span className="menu-toggle" onClick={this.menuToggle.bind(this)}>            
               <Image src="img/menu.png" />
             </span>
           </div>          
