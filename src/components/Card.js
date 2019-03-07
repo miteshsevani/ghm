@@ -18,7 +18,7 @@ export default class Card extends Component {
   render() {
     const { data, type } = this.props;
     return (
-      <StyledCard className= { type }>
+      <StyledCard className={ type }>
         { data.title === 'About' ? '' : <Title title={ data.title } /> }
         <p>{ data.text[0] }</p>        
         { data.title === 'Services' ? <p><a href="#/services">Find out more</a></p> : '' }

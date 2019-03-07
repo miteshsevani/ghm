@@ -20,11 +20,9 @@
 	],
 	"contact": [
 		{ 
-			"title":"Contact",
-			"text": [
-				"020 8854 4566",
-				"info@greenwichhindutemple.org.uk"
-			]
+			"title": "Contact",
+			"phone": "020 8854 4566",
+			"email": "info@greenwichhindutemple.org.uk"
 		}
 	],
 	"darshan": [
@@ -73,6 +71,14 @@
 				"Standing order form Gift Aid Decleration Form",
 				"Please hand the completed form to one of the committee member or email it to info@greenwichhindutemple.org.uk",
 				"The committee would like to Thank you in advance for your generosity."
+			]
+		}
+	],
+	"volunteer" : [
+		{
+			"title":"Volunteer",
+			"text": [
+				"Greenwich Hindu Mandir is always looking for volunteers to help manage the day to day events and special occasions at the temple. If you wish to be a volunteer and would like to devote your time doing charity work for your temple please download the form and hand it upon completion to one of the committee members or email it to us. If you wish to know more about doing voluntary work at the temple please speak to one of the committee members today or send us an email at info@greenwichhindutemple.org.uk and we will get back to you."
 			]
 		}
 	],

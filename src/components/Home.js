@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import Banner from './Banner';
 import Intro from './Intro';
-import Card from './Card';
+import Contact from './Contact';
 import Panel from './Panel';
+import Map from './Map';
 
 export default class Home extends Component {  
   render() {    
@@ -10,16 +11,17 @@ export default class Home extends Component {
     return (
       <div className="content">
         <Banner />
-        <section className="main">
-          <Intro data={data.about[0]} />
-          <Card data={data.services[0]} type="half" />
-          <Card data={data.donations[0]} type="half" />         
-        </section>
-        <section className="side-panel">
-          <Panel data={data.visit[0]} />
-          <Panel data={data.darshan[0]} />
-          <Panel data={data.contact[0]} />
-        </section>
+        <Intro data={data.about[0]} />        
+        <section className="main-wrap">
+          <div className="main">
+            <Panel data={data.visit[0]} />
+            <Panel data={data.darshan[0]} />            
+            <Contact data={data.contact[0]} />          
+          </div>
+          <div className="map">
+            <Map />
+          </div>
+        </section>        
       </div>
     );
   }

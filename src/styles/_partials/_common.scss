@@ -1,16 +1,6 @@
 body {
   margin: 0;
-  padding: 0;
-  font: normal $font-default $font-sans;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: $color-default;  
 }
-
-h1, h2, h3, h4 {  
-  font-family: $font-serif;
-}
-
 a {
   color: $color-link;
   text-decoration: none;
@@ -21,20 +11,21 @@ a {
   }
 }
 
-p {
-  line-height: 1.3em;
+p {  
   margin: 0.5em 0;
   &:first-of-type {
     margin-top: 0;
   }
 }
 
-.wrapper {  
-  max-width: 1000px;
-  margin: 0 auto;  
-  padding: 12px;      
-  background: $color-white;
+.col-1, 
+.col-2,
+.col-3,
+.col-4 {
+  width: 100%;
 }
+
+
 
 .content {
   display: flex;
@@ -42,25 +33,19 @@ p {
   justify-content: space-between;  
 }
 
-.main {
-  width: 100%;
+.main-wrap {  
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.side-panel {  
-  width: 100%;
+.main {  
+  width: 49%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-@include breakpoint(tablet) {
-  .wrapper {
-    padding: 16px;
-  }
-  .main {
-    width: 65%;
-  }
-  .side-panel {  
-    width: 32%;
-  } 
+.map {
+  width: 50%;
 }

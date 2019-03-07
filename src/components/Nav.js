@@ -3,6 +3,8 @@ import { HashRouter } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import styled from 'styled-components';
 
+import Image from './Image';
+
 const StyledNav = styled.div`
   display:flex;
   justify-content: flex-end;      
@@ -17,25 +19,40 @@ const StyledNav = styled.div`
         margin-left: 20px;
       }
       a {
-        color: #fff;
+        
       }
       a:hover {
-        text-decoration: none;
+        text-decoration: none;        
         font-weight: bold;
+        color: #3a3838;
         transition: font-weight 0.2s;
-        color: #d27c21;
       }
-    }
-    @media all and (min-width: 768px) {       
+    }    
+    @media all and (min-width: 768px) {             
       ul {
         display: flex;
       }
     }    
   }
+
+  .menu-toggle {       
+    position: absolute;
+    right: 8px;
+    top: -40px;
+    img {
+      width: 32px;
+      height: 32px;
+    }
+  }
+  @media all and (min-width: 768px) {
+    .menu-toggle {
+      display: none;
+    }
+  }
   @media all and (max-width: 767px) {
     position: absolute;
     text-align: center;
-    background: #262626;
+    background: #f7f7f7;
     top: 70px;
     left: 0;
     nav {
@@ -55,18 +72,28 @@ const StyledNav = styled.div`
 `;
 
 export default class Nav extends Component {    
-  closeMenu() {    
-    const currentState = document.getElementById('nav');          
-    currentState.removeAttribute('class');
-    
+  constructor(props) {
+    super(props);
+    this.state = {menuState: false }
+  }
+
+
+  menuToggle() {
+    const currentState = this.state.menuState;
+    this.setState({ 
+      menuState: !currentState ? 'active' : false
+    });
   }
 
   render() {    
-    const { items, state } = this.props;
+    const { items } = this.props;
     return(
       <StyledNav>
+        <span className="menu-toggle" onClick={this.menuToggle.bind(this)}>            
+          <Image src="img/menu.svg" />
+        </span>
         <HashRouter>          
-        <nav id="nav" className={state}>
+        <nav id="nav" className={this.state.menuState} >
           <ul>
           {items.navigation.map((nav,key) => {
             return (              
@@ -74,7 +101,7 @@ export default class Nav extends Component {
             );
           })}
           </ul>          
-        </nav>
+        </nav>        
         </HashRouter>
       </StyledNav>
     )

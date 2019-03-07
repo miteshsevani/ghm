@@ -5,7 +5,7 @@ export default class Services extends Component {
   render() {
     const data = require('../content/content.json');
     return (
-      <div className="content">        
+      <div id="#donations"className="content">        
         <Title title={data.donations[0].title} />
         {data.donations[0].text.map(function(name, index){
           return <p key={ index }>{name}</p>;

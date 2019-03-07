@@ -2,9 +2,12 @@ import React, { Component } from 'react';
 import Styled from 'styled-components';
 import Title from './Title';
 
-const StyledPanel = Styled.div`
-  width: 100%;
+const StyledPanel = Styled.div`  
   margin-bottom: 16px;
+  width: 49%;  
+  @media all and (min-width: 768px) {
+    width: 40%;  
+  }
 `;
 
 export default class Panel extends Component {
@@ -12,7 +15,7 @@ export default class Panel extends Component {
     const { data } = this.props;
     return (
       <StyledPanel>        
-        <Title title={data.title} type="secondary" />
+        <Title title={data.title} />
         <p>
         {data.text.map(function(name, index){
           return <span key={ index }>{name}<br /></span>;
