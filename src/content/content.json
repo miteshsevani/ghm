@@ -38,7 +38,7 @@
 	,
 	"about": [
 		{
-			"title":"About",
+			"title":"Our Mandir",
 			"text": [
 				"Greenwich Hindu Mandir (GHM) was founded in March 1978 in the Royal London Borough of Greenwich. Initially, members met at each other’s homes for worshipping, satsang, religious and cultural discourses.",
 				"St. Nicholas Mission Hall, our present building was purchased in 1984 on a 99 year lease and the building was converted into a Temple. Marble Murtis of Radha-Krishna, Shivalingam, Durga mata and Ram darbar were donated by Mr Rambaba and Mr Maganbhai. Ganeshji were donated by Birla’s of India through Mr Ramesh Kumar.",
@@ -57,7 +57,20 @@
 			],
 			"docs" : [
 				{
-					"poojas":	"/docs/poojas-and-donation.pdf"
+					"link":	"/docs/poojas-and-donation.pdf",
+					"name" : "List of Poojas and Donations"					
+				}
+			]
+		}
+	],
+	"calendar" : [
+		{
+			"title":"Calendar",
+			"docs": [
+				{
+					"link":	"/docs/2019-calendar.pdf",
+					"name" : "Download the 2019 Calendar",
+					"image" : "/img/2019-calendar.png"
 				}
 			]
 		}
@@ -67,10 +80,19 @@
 			"title":"Donations",
 			"text": [
 				"The Committee is most grateful for your generosity. We rely entirely on the donations made by people like yourselves and thank you for your continuous support to Greenwich Hindu Temple.",
-				"If you would like to make a donation on a regular basis to the temple then please download the Standing Order Form here via:",
-				"Standing order form Gift Aid Decleration Form",
+				"If you would like to make a donation on a regular basis to the temple then please download the Standing Order Form here via:",				
 				"Please hand the completed form to one of the committee member or email it to info@greenwichhindutemple.org.uk",
 				"The committee would like to Thank you in advance for your generosity."
+			],
+			"docs": [
+				{
+					"link":	"/docs/gift-aid-declaration.pdf",
+					"name" : "Gift Aid Decleration Form"
+				},
+				{
+					"link":	"/docs/standing-order.pdf",
+					"name" : "Standing Order Form"
+				}
 			]
 		}
 	],
@@ -81,6 +103,12 @@
 				"Greenwich Hindu Mandir is always looking for volunteers to help manage the day to day events and special occasions at the temple.",
 				"If you wish to be a volunteer and would like to devote your time doing charity work for your temple please download the form and hand it upon completion to one of the committee members or email it to us.",
 				"If you wish to know more about doing voluntary work at the temple please speak to one of the committee members today or send us an email at info@greenwichhindutemple.org.uk and we will get back to you."
+			],
+			"docs": [
+				{
+					"link":	"/docs/volunteer-application-form.pdf",
+					"name" : "Volunteer Application Form"
+				}
 			]
 		}
 	],

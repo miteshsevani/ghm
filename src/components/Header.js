@@ -32,6 +32,12 @@ const StyledHeader = styled.div`
         width: 100px;
       }
       .title {        
+        margin-left: 12px;
+        font-size: 0.9em;
+      }            
+    }
+    @media all and (min-width: 1000px) {
+      .title {        
         margin-left: 16px;
         font-size: 1em;
       }            
@@ -49,7 +55,7 @@ export default class Header extends Component {
           <div className="header-wrapper">
             <HashRouter>
               <NavLink to="/">
-                <Image className="logo" src='img/logo.png' />          
+                <Image className="logo" src='img/logo.png' />
               </NavLink>
             </HashRouter>
             <div className="title">

@@ -7,11 +7,7 @@ const StyledTitle = styled.div`
     color: ${props => props.theme.fontHeaderColor};
     margin: 0 0 8px 0; 
     font-weight: normal;
-    letter-spacing: 0.5px;
-    &.secondary {
-      color: #0075BC;
-      font-size: 20px;
-    }   
+    letter-spacing: 0.5px;    
   }
 `;
 

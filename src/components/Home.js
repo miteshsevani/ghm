@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
 import Styled from 'styled-components';
+import Content from './styleComponents/Content';
 
 import Banner from './Banner';
 import Intro from './Intro';
 import Contact from './Contact';
 import Panel from './Panel';
 import Map from './Map';
-import Content from './styleComponents/Content';
 
+const StyledMainWrapper = Styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 24px;
+`;
 
 const StyledMain = Styled.div`
   display: flex;  
@@ -26,18 +32,16 @@ export default class Home extends Component {
     const data = require('../content/content.json');
     return (
       <div>        
-        <Banner />
-        <Content>
-          <Intro data={data.about[0]} />        
-        </Content>
-        <Content>
+        <Banner />        
+        <Intro data={data.about[0]} />                
+        <StyledMainWrapper>
           <StyledMain>
             <Panel data={data.visit[0]} />
             <Panel data={data.darshan[0]} />            
             <Contact data={data.contact[0]} />          
           </StyledMain>
           <Map />
-        </Content>
+        </StyledMainWrapper>
       </div>
     );
   }

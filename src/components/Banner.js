@@ -12,7 +12,7 @@ const StyledBanner = Styled.div`
 export default class Banner extends Component {
   render() {
     return(
-      <StyledBanner className="col-2" />
+      <StyledBanner />
     );
   }
 }

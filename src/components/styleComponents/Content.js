@@ -1,10 +1,7 @@
 import Styled from "styled-components";
 
 const Content = Styled.div`
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  width: 100%;  
   margin: 20px 0;
 `;
 

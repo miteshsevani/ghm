@@ -11,7 +11,10 @@ const theme = {
 
   // Headers
   fontHeaderFamily: "'Titillium Web', sans-serif",
-  fontHeaderColor: "#d27c21"
+  fontHeaderColor: "#d27c21",
+
+  // Buttons
+  btnBackground: "#0075BC"
 };
 
 export default theme;

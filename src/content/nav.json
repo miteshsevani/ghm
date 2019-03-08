@@ -1,16 +1,16 @@
 {			
-    "navigation": [				        
+    "navigation": [        
         {
-            "text":"Home",
-            "link":"/"
-        },
-        {
-            "text":"About",
+            "text":"Our Mandir",
             "link":"/about"
         },
         {
             "text":"Services",
             "link":"/services"
+        },
+        {
+            "text":"Calendar",
+            "link":"/calendar"
         },        
         {
             "text":"Donations",

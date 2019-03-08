@@ -17,10 +17,7 @@ const StyledNav = styled.div`
       padding: 0;      
       li {
         margin-left: 20px;
-      }
-      a {
-        
-      }
+      }      
       a:hover {
         text-decoration: none;        
         font-weight: bold;
@@ -38,17 +35,34 @@ const StyledNav = styled.div`
   .menu-toggle {       
     position: absolute;
     right: 8px;
-    top: -40px;
+    top: -46px;
     img {
-      width: 32px;
-      height: 32px;
-    }
+      width: 42px;
+      height: 42px;
+    }    
   }
   @media all and (min-width: 768px) {
+    nav {        
+      ul {      
+        li {
+          margin-left: 14px;
+        }      
+      }    
+    }
     .menu-toggle {
       display: none;
     }
   }
+  @media all and (min-width: 1000px) {
+    nav {        
+      ul {      
+        li {
+          margin-left: 20px;
+        }      
+      }
+    }    
+  }
+
   @media all and (max-width: 767px) {
     position: absolute;
     text-align: center;
@@ -93,11 +107,11 @@ export default class Nav extends Component {
           <Image src="img/menu.svg" />
         </span>
         <HashRouter>          
-        <nav id="nav" className={this.state.menuState} >
+        <nav className={this.state.menuState} >
           <ul>
           {items.navigation.map((nav,key) => {
             return (              
-              <li key={key} onClick={this.closeMenu}><NavLink to={nav.link}>{nav.text}</NavLink></li>
+              <li key={key} onClick={this.menuToggle.bind(this)}><NavLink to={nav.link}>{nav.text}</NavLink></li>
             );
           })}
           </ul>          

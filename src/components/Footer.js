@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-const StyledFooter = styled.div`  
+const StyledFooter = styled.div`    
   footer {    
     background: #262626;
     color: #ccc;

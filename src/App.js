@@ -10,6 +10,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
 import Services from './components/Services';
+import Calendar from './components/Calendar';
 import Donations from './components/Donations';
 import Volunteer from './components/Volunteer';
 import Footer from './components/Footer';
@@ -25,6 +26,7 @@ export default () => (
           <Route exact path="/" component={Home}/>
           <Route path="/about" component={About}/>
           <Route path="/services" component={Services}/>
+          <Route path="/calendar" component={Calendar}/>          
           <Route path="/donations" component={Donations}/>          
           <Route path="/volunteer" component={Volunteer}/>    
         </Wrapper>
