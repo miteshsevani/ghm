@@ -20,17 +20,15 @@ export default () => (
   <ThemeProvider theme={Theme}>    
     <Body>
       <Header data={ data.header } />
-      <Wrapper>        
-        <HashRouter>
-          <div>
-            <Route exact path="/" component={Home}/>
-            <Route path="/about" component={About}/>
-            <Route path="/services" component={Services}/>
-            <Route path="/donations" component={Donations}/>          
-            <Route path="/volunteer" component={Volunteer}/>    
-          </div>        
-        </HashRouter>      
-      </Wrapper>
+      <HashRouter>
+        <Wrapper>          
+          <Route exact path="/" component={Home}/>
+          <Route path="/about" component={About}/>
+          <Route path="/services" component={Services}/>
+          <Route path="/donations" component={Donations}/>          
+          <Route path="/volunteer" component={Volunteer}/>    
+        </Wrapper>
+      </HashRouter>
       <Footer data={ data.footer } />        
     </Body>
   </ThemeProvider>  

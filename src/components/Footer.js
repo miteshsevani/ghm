@@ -1,18 +1,24 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-const StyledFooter = styled.div`
-  background: #262626;
-  color: #ccc;
+const StyledFooter = styled.div`  
   footer {    
+    background: #262626;
+    color: #ccc;
     max-width: 1000px;
     margin: 0 auto;
     padding: 16px;
-    .footer-meta {
-      display:flex;
-      justify-content: space-between;
+    .footer-meta {       
       font-size: 14px;
     }
+  }
+  @media all and (min-width: 768px) {
+    footer {          
+      .footer-meta {
+        display:flex;
+        justify-content: space-between;
+      }
+    } 
   }
 `;
 export default class Footer extends Component {

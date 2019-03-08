@@ -5,7 +5,7 @@ import Title from './Title';
 const StyledPanel = Styled.div`  
   margin-bottom: 16px;
   width: 49%;  
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 1000px) {
     width: 40%;  
   }
 `;
