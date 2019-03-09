@@ -34,8 +34,7 @@
 				"7 days a week"
 			]
 		}
-	]
-	,
+	],
 	"about": [
 		{
 			"title":"Our Mandir",
@@ -47,7 +46,29 @@
 			]
 		}
 	],
-	"services": [
+	"activities" : [
+		{
+			"title" : "Aarti",
+			"day" : "Everyday",
+			"time" : "10am and 7pm"
+		},
+		{
+			"title" : "Hanumna Chalisa",
+			"day" : "Tuesday",
+			"time" : "7pm"
+		},
+		{
+			"title" : "Bhajan Kirtan",
+			"day" : "Saturday",
+			"time" : "5pm to 7pm"
+		},
+		{
+			"title" : "Yoga",
+			"day" : "Monday",
+			"time" : "7.30pm to 8.45pm"
+		}
+	],
+	"services" : [
 		{
 			"title":"Services",
 			"text" : [

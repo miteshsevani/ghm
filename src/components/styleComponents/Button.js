@@ -3,11 +3,10 @@ import Styled from "styled-components";
 const Button = Styled.div`
   padding: 4px 12px;
   background: ${props => props.theme.btnBackground};    ;  
-  border-radius: 5px;
-  display: inline-block;
-  margin: 20px 20px 0 0;
+  border-radius: 5px;  
+  margin-top: 20px;
   font-size: 14px;
-  cursor: pointer;
+  cursor: pointer;    
   a { 
     color: #fff;
   }
