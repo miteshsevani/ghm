@@ -54,17 +54,17 @@
 		},
 		{
 			"title" : "Hanumna Chalisa",
-			"day" : "Tuesday",
+			"day" : "Every Tuesday",
 			"time" : "7pm"
 		},
 		{
 			"title" : "Bhajan Kirtan",
-			"day" : "Saturday",
+			"day" : "Every Saturday",
 			"time" : "5pm to 7pm"
 		},
 		{
 			"title" : "Yoga",
-			"day" : "Monday",
+			"day" : "Every Monday",
 			"time" : "7.30pm to 8.45pm"
 		}
 	],
