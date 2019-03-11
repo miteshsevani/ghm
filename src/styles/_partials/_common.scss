@@ -1,10 +1,8 @@
 html, 
 body {  
   background: #f7f7f7;
-  margin: 0;    
-  height: 100%;  
+  margin: 0;
 }
-
 a {
   color: $color-link;
   text-decoration: none;
@@ -14,7 +12,6 @@ a {
     transition: color 0.2s;
   }
 }
-
 p {  
   width: 100%;
   margin: 0.5em 0;
