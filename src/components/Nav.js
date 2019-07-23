@@ -104,7 +104,7 @@ export default class Nav extends Component {
     return(
       <StyledNav>
         <span className="menu-toggle" onClick={this.menuToggle.bind(this)}>            
-          <Image src="img/menu.svg" />
+          <Image src="img/menu.png" />
         </span>
         <HashRouter>          
         <nav className={this.state.menuState} >
