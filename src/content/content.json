@@ -6,20 +6,20 @@
 				"Greenwich Hindu Mandir"
 			]
 		}
-	],    	
+	],
 	"visit": [
 		{
 			"title":"Visit us",
 			"text" : [
 				"63-67 Bannockburn Road",
-				"Plumstead", 
-				"London", 
+				"Plumstead",
+				"London",
 				"SE18 1ET"
 			]
 		}
 	],
 	"contact": [
-		{ 
+		{
 			"title": "Contact",
 			"phone": "020 8854 4566",
 			"email": "info@greenwichhindutemple.org.uk"
@@ -79,7 +79,7 @@
 			"docs" : [
 				{
 					"link":	"/docs/poojas-and-donation.pdf",
-					"name" : "List of Poojas and Donations"					
+					"name" : "List of Poojas and Donations"
 				}
 			]
 		}
@@ -89,9 +89,9 @@
 			"title":"Calendar",
 			"docs": [
 				{
-					"link":	"/docs/2019-calendar.pdf",
-					"name" : "Download the 2019 Calendar",
-					"image" : "/img/2019-calendar.png"
+					"link":	"/docs/calendar.pdf",
+					"name" : "Download the 2020 Calendar",
+					"image" : "/img/calendar.jpg"
 				}
 			]
 		}
@@ -101,7 +101,7 @@
 			"title":"Donations",
 			"text": [
 				"The Committee is most grateful for your generosity. We rely entirely on the donations made by people like yourselves and thank you for your continuous support to Greenwich Hindu Temple.",
-				"If you would like to make a donation on a regular basis to the temple then please download the Standing Order Form here via:",				
+				"If you would like to make a donation on a regular basis to the temple then please download the Standing Order Form here via:",
 				"Please hand the completed form to one of the committee member or email it to info@greenwichhindutemple.org.uk",
 				"The committee would like to Thank you in advance for your generosity."
 			],
