@@ -1,8 +1,12 @@
-{			
-    "navigation": [        
+{
+    "navigation": [
         {
             "text":"Our Mandir",
             "link":"/about"
+        },
+        {
+            "text":"Current News",
+            "link":"/current-news"
         },
         {
             "text":"Services",
@@ -11,11 +15,11 @@
         {
             "text":"Calendar",
             "link":"/calendar"
-        },        
+        },
         {
             "text":"Donations",
             "link":"/donations"
-        },        
+        },
         {
             "text":"Volunteer",
             "link":"/volunteer"

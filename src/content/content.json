@@ -46,6 +46,17 @@
 			]
 		}
 	],
+	"currentnews": [
+		{
+			"title":"Current News",
+			"docs": [
+				{
+					"link":	"/docs/temple-reopening.pdf",
+					"image" : "/img/temple-reopening.jpg"
+				}
+			]
+		}
+	],
 	"activities" : [
 		{
 			"title" : "Aarti",
