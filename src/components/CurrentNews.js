@@ -9,7 +9,9 @@ export default class CurrentNews extends Component {
     return (
       <ContentWrapper>
         <Title title={data.currentnews[0].title} />
-        <Image src= { data.currentnews[0].docs[0].image } />
+        {data.currentnews[0].docs.map(function(item, index){
+          return <Image key={ index } src= { item.image } />
+        })}
       </ContentWrapper>
     );
   }
