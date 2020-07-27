@@ -11,9 +11,9 @@
 		{
 			"title":"Visit us",
 			"text" : [
-				"63-67 Bannockburn Road",
-				"Plumstead",
-				"London",
+				"63-67 Bannockburn Road<br />",
+				"Plumstead<br />",
+				"London<br />",
 				"SE18 1ET"
 			]
 		}
@@ -29,9 +29,10 @@
 		{
 			"title":"Darshan times",
 			"text": [
-				"8:30am - 11:30am",
-				"5:00pm - 8:00pm",
-				"7 days a week"
+				"<span style='text-decoration: line-through;'>8:30am - 11:30am</span></span><br />",
+				"<span style='text-decoration: line-through;'>5:00pm - 8:00pm</span><br />",
+				"<span style='text-decoration: line-through;'>7 days a week</span><br />",
+				"<span style='color: red;font-weight:bold;'>CLOSED</span> please check the <a href='#/current-news/'>current news</a> thank you"
 			]
 		}
 	],
