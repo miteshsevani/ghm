@@ -6,24 +6,22 @@ import Image from './Image';
 
 
 const StyledHeader = styled.div`
-  header {                
-    .header-wrapper {      
+  header {
+    .header-wrapper {
       display: flex;
-      align-items: center;      
+      align-items: center;
       max-width: 1000px;
-      margin: 0 auto;  
-      padding: 12px;    
+      margin: 0 auto;
+      padding: 12px;
     }
     .logo {
       width: 60px;
     }
     .title {
-      white-space: nowrap;
       margin-left: 12px;
-      font-size: 15px;
-      line-height: normal;
+      max-width: 250px;
     }
-    
+
     @media all and (min-width: 768px) {
       .header-wrapper {
         padding: 16px;
@@ -31,16 +29,10 @@ const StyledHeader = styled.div`
       .logo {
         width: 100px;
       }
-      .title {        
+      .title {
         margin-left: 12px;
-        font-size: 0.9em;
-      }            
-    }
-    @media all and (min-width: 1000px) {
-      .title {        
-        margin-left: 16px;
-        font-size: 1em;
-      }            
+        max-width: 250px;
+      }
     }
   }
 `;
@@ -51,19 +43,18 @@ export default class Header extends Component {
     const { data } = this.props;
     return (
       <StyledHeader>
-        <header>            
+        <header>
           <div className="header-wrapper">
             <HashRouter>
               <NavLink to="/">
-                <Image className="logo" src='img/logo.png' />
+                <Image className="logo" src='img/logo-2.png' />
               </NavLink>
             </HashRouter>
             <div className="title">
-              <div>{data[0].title[0]}</div>
-              <div>{data[0].title[1]}</div>
+              <Image src='img/banner.png' />
             </div>
-            <Nav items={navItems} />            
-          </div>          
+            <Nav items={navItems} />
+          </div>
         </header>
       </StyledHeader>
     );

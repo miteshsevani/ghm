@@ -52,6 +52,10 @@
 			"title":"Current News",
 			"docs": [
 				{
+					"link":	"/docs/janamashtmi-opening.pdf",
+					"image" : "/img/janamashtmi-opening.png"
+				},
+				{
 					"link":	"/docs/temple-reopening-shravan-maas.pdf",
 					"image" : "/img/temple-reopening-shravan-maas.jpg"
 				},
