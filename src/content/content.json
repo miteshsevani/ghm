@@ -52,6 +52,10 @@
 			"title":"Current News",
 			"docs": [
 				{
+					"link":	"/docs/kevda-teej.pdf",
+					"image" : "/img/kevda-teej.png"
+				},
+				{
 					"link":	"/docs/temple-reopening-shravan-maas.pdf",
 					"image" : "/img/temple-reopening-shravan-maas.jpg"
 				},
