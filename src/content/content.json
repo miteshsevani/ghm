@@ -52,13 +52,10 @@
 			"title":"Current News",
 			"docs": [
 				{
-					"image" : "/img/shraad-Opening-hours.png"
+					"image" : "/img/temple-opening-2.png"
 				},
 				{
-					"image" : "/img/new-opening-hours.png"
-				},
-				{
-					"image" : "/img/temple-reopening.jpg"
+					"image" : "/img/temple-opening-1.png"
 				}
 			]
 		}

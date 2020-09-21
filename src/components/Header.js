@@ -40,7 +40,6 @@ const StyledHeader = styled.div`
 const navItems = require('../content/nav.json');
 export default class Header extends Component {
   render() {
-    const { data } = this.props;
     return (
       <StyledHeader>
         <header>
