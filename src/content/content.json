@@ -51,8 +51,12 @@
 		{
 			"title":"Current News",
 			"docs": [
+
 				{
-					"image" : "/img/temple-opening-2.png"
+					"image" : "/img/navratri-opening.png"
+				},
+				{
+					"image" : "/img/dashehra-opening.png"
 				},
 				{
 					"image" : "/img/temple-opening-1.png"
