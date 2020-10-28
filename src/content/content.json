@@ -32,7 +32,7 @@
 				"<span style='text-decoration: line-through;'>8:30am - 11:30am</span></span><br />",
 				"<span style='text-decoration: line-through;'>5:00pm - 8:00pm</span><br />",
 				"<span style='text-decoration: line-through;'>7 days a week</span><br />",
-				"<span style='color: red;font-weight:bold;'>CLOSED</span> please check the <a href='#/current-news/'>current news</a> thank you"
+				"<span style='color: red;font-weight:bold;'>CLOSED</span> please check the <a href='#/current-news/'>CURRENT NEWS</a> for opening hours. Thank You."
 			]
 		}
 	],
@@ -53,10 +53,7 @@
 			"docs": [
 
 				{
-					"image" : "/img/navratri-opening.png"
-				},
-				{
-					"image" : "/img/dashehra-opening.png"
+					"image" : "/img/temple-opening-2.png"
 				},
 				{
 					"image" : "/img/temple-opening-1.png"
