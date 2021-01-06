@@ -53,7 +53,7 @@
 			"docs": [
 
 				{
-					"image" : "/img/temple-opening.png"
+					"image" : "/img/closed.png"
 				}
 			]
 		}
@@ -102,8 +102,8 @@
 			"docs": [
 				{
 					"link":	"/docs/calendar.pdf",
-					"name" : "Download the 2020 Calendar",
-					"image" : "/img/calendar.jpg"
+					"name" : "Download the 2021 Calendar",
+					"image" : "/img/calendar.png"
 				}
 			]
 		}
