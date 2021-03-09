@@ -51,7 +51,9 @@
 		{
 			"title":"Current News",
 			"docs": [
-
+				{
+					"image" : "/img/maha-shivratri.png"
+				},
 				{
 					"image" : "/img/temple-opening-2.png"
 				}
