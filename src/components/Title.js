@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-const StyledTitle = styled.div`  
+const StyledTitle = styled.div`
   width: 100%;
   h2 {
     font-family: ${props => props.theme.fontHeaderFamily};
     color: ${props => props.theme.fontHeaderColor};
-    margin: 0 0 8px 0; 
+    margin: 0 0 16px 0;
     font-weight: normal;
-    letter-spacing: 0.5px;        
+    letter-spacing: 0.5px;
   }
 `;
 
