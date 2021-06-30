@@ -13,7 +13,6 @@ export default class Services extends Component {
         {data.services[0].text.map(function(name, index){
           return <p key={ index }>{name}</p>;
         })}
-        <Download link={ data.services[0].docs[0].link } name={ data.services[0].docs[0].name } />
       </ContentWrapper>
     );
   }
