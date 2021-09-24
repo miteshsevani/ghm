@@ -52,6 +52,9 @@
 			"title":"Current News",
 			"docs": [
 				{
+					"image" : "/img/sharad-navratri.png"
+				},
+				{
 					"image" : "/img/temple-opening.png"
 				}
 			]
