@@ -51,7 +51,7 @@
 			"title":"Current News",
 			"docs": [
 				{
-					"image" : "/img/sharad-navratri.png"
+					"image" : "/img/navratri.jpg"
 				}
 			]
 		}
@@ -71,11 +71,6 @@
 			"title" : "Bhajan Kirtan",
 			"day" : "Every Saturday",
 			"time" : "5pm to 7pm"
-		},
-		{
-			"title" : "Yoga",
-			"day" : "Every Monday",
-			"time" : "7.30pm to 8.45pm"
 		}
 	],
 	"services" : [
