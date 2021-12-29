@@ -51,7 +51,7 @@
 			"title":"Current News",
 			"docs": [
 				{
-					"image" : "/img/navratri.jpg"
+					"image" : ""
 				}
 			]
 		}
@@ -89,7 +89,7 @@
 			"docs": [
 				{
 					"link":	"/docs/calendar.pdf",
-					"name" : "Download the 2021 Calendar",
+					"name" : "Download the 2022 Calendar",
 					"image" : "/img/calendar.png"
 				}
 			]
