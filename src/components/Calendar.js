@@ -10,7 +10,7 @@ export default class Services extends Component {
     const data = require('../content/content.json');
     return (
       <ContentWrapper>
-        <Title title={ data.calendar[0].title } />
+        {/*<Title title={ data.calendar[0].title } /> */}
         <Download link={ data.calendar[0].docs[0].link } name={ data.calendar[0].docs[0].name } />
         <Image src= { data.calendar[0].docs[0].image } />
       </ContentWrapper>
