@@ -9,7 +9,7 @@
 	],
 	"visit": [
 		{
-			"title":"Visit us",
+			"title":"Visit Us",
 			"text" : [
 				"63-67 Bannockburn Road<br />",
 				"Plumstead<br />",
@@ -27,11 +27,12 @@
 	],
 	"darshan": [
 		{
-			"title":"Darshan times",
+			"title":"Opening Times",
 			"text": [
-				"<span>8:30am - 11:30am</span></span><br />",
-				"<span>5:00pm - 8:00pm</span><br />",
-				"<span>7 days a week</span><br />"
+				"<span>Everyday</span><br />",
+				"<span>8:30 am - 11:30 am</span><br />",
+				"<span>5:00 pm - 8:00 pm</span><br /><br />",
+				"<span><b>Every Wednesday</b><br />Panditji's day off</span>"
 			]
 		}
 	],
@@ -60,17 +61,17 @@
 		{
 			"title" : "Aarti",
 			"day" : "Everyday",
-			"time" : "10am and 7pm"
+			"time" : "10.00 am and 7.00 pm"
 		},
 		{
 			"title" : "Hanumna Chalisa",
 			"day" : "Every Tuesday",
-			"time" : "7pm"
+			"time" : "7.00 pm"
 		},
 		{
 			"title" : "Bhajan Kirtan",
 			"day" : "Every Saturday",
-			"time" : "5pm to 7pm"
+			"time" : "5.00 pm to 7.00 pm"
 		}
 	],
 	"services" : [

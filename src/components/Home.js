@@ -12,28 +12,28 @@ import Map from './Map';
 
 
 const StyledMain = Styled.div`
-  display: flex;  
+  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 100%;  
+  width: 100%;
   @media all and (min-width: 768px) {
-    width: 49%;    
+    width: 49%;
   }
 `;
 
-export default class Home extends Component {  
-  render() {    
+export default class Home extends Component {
+  render() {
     const data = require('../content/content.json');
     return (
       <div>
-        <Activities data={data.activities} />                
+        <Activities data={data.activities} />
         <Banner />
-        <Intro data={data.about[0]} />        
+        <Intro data={data.about[0]} />
         <ContentWrapper>
           <StyledMain>
             <Panel data={data.visit[0]} />
-            <Panel data={data.darshan[0]} />            
-            <Contact data={data.contact[0]} />          
+            <Panel data={data.darshan[0]} /><br />
+            <Contact data={data.contact[0]} />
           </StyledMain>
           <Map />
         </ContentWrapper>
