@@ -26,7 +26,7 @@ export default () => (
         <Wrapper>
           <Route exact path="/" component={Home}/>
           <Route path="/about" component={About}/>
-          <Route path="/current-news" component={Calendar}/>
+          <Route path="/current-news" component={CurrentNews}/>
           <Route path="/services" component={Services}/>
           <Route path="/calendar" component={Calendar}/>
           <Route path="/donations" component={Donations}/>
